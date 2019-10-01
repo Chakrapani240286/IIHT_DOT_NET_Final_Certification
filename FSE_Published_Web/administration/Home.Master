@@ -1,0 +1,130 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="Project.Manager.Web.administration.Home" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="icon" href="~/content/favicon.png" type="image/x-icon" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link rel="stylesheet" href="~/content/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/content/css/plugins/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="~/content/css/plugins/datatable/TableTools.css">
+    <link rel="stylesheet" href="~/content/css/plugins/chosen/chosen.css">
+    <link rel="stylesheet" href="~/content/css/style.css">
+    <link rel="stylesheet" href="~/content/css/themes.css">
+    <link href="~/Scripts/messi.min.css" rel="stylesheet" />
+
+    <script src="../../content/js/jquery.min.js"></script>
+    <script src="../../content/js//plugins/nicescroll/jquery.nicescroll.min.js"></script>
+    <script src="../../content/js/plugins/imagesLoaded/jquery.imagesloaded.min.js"></script>
+    <script src="../../content/js/plugins/jquery-ui/jquery-ui.js"></script>
+    <script src="../../content/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="../../content/js/bootstrap.min.js"></script>
+    <script src="../../content/js/plugins/bootbox/jquery.bootbox.js"></script>
+    <script src="../../content/js/plugins/form/jquery.form.min.js"></script>
+    <script src="../../content/js/plugins/validation/jquery.validate.min.js"></script>
+    <script src="../../content/js/plugins/validation/additional-methods.min.js"></script>
+    <script src="../../content/js/plugins/form/jquery.form.min.js"></script>
+    <script src="../../content/js/plugins/wizard/jquery.form.wizard.min.js"></script>
+    <script src="../../content/js/plugins/mockjax/jquery.mockjax.js"></script>
+    <script src="../../content/js/plugins/momentjs/jquery.moment.min.js"></script>
+    <script src="../../content/js/plugins/momentjs/moment-range.min.js"></script>
+    <script src="../../content/js/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="../../content/js/plugins/datatables/extensions/dataTables.tableTools.min.js"></script>
+    <script src="../../content/js/plugins/datatables/extensions/dataTables.colReorder.min.js"></script>
+    <script src="../../content/js/plugins/datatables/extensions/dataTables.colVis.min.js"></script>
+    <script src="../../content/js/plugins/datatables/extensions/dataTables.scroller.min.js"></script>
+    <script src="../../content/js/eakroko.min.js"></script>
+    <script src="../../content/js/application.min.js"></script>
+    <script src="../../content/js/demonstration.min.js"></script>
+    <script src="../../Scripts/messi.min.js"></script>
+</head>
+<body data-layout-sidebar="fixed" data-layout-topbar="fixed">
+    <form id="form1" runat="server">
+        <div id="navigation">
+            <div class="container-fluid">
+                <a href="/administration/default.aspx?redirectUrl=default-User-home&pageId=1234HJHJKJ*7987979" id="brand"><%=System.Configuration.ConfigurationManager.AppSettings["AppName"].ToString() %></a>
+                <a href="#" class="toggle-nav" rel="tooltip" data-placement="bottom" title="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <ul class='main-nav'>
+                    <li>
+                        <a href="/administration/default.aspx?redirecturl=default-administrator-home&pageId=1234HJHJKJ*7987979">
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/administration/Users.aspx?redirecturl=default-administrator-home&pageId=1234HJHJKJ*7987979">
+                            <span>User</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/administration/projects.aspx?redirecturl=default-administrator-home&pageId=1234HJHJKJ*7987979">
+                            <span>Projects</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/administration/projecttask.aspx?redirecturl=default-administrator-home&pageId=1234HJHJKJ*7987979">
+                            <span>Project Task</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="user">
+                    <div class="dropdown">
+                        <a href="#" class='dropdown-toggle' data-toggle="dropdown"><%= _User.FirstName %>
+                            <img src="../../content/loginuser.png" alt="" width="20">
+                        </a>
+                        <ul class="dropdown-menu pull-right">
+                            <li>
+                                <a href="../../../logout.aspx?logoutEmail=<%=_User.EmailId %>&logout=100&redUrl=HGHGH786876">Sign out</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="content">
+            <div id="left">
+                <div class="subnav">
+                    <div class="subnav-title">
+                        <a href="#" class='toggle-subnav'>
+                            <i class="fa fa-angle-down"></i>
+                            <span>FSE PM Content</span>
+                        </a>
+                    </div>
+                    <ul class="subnav-menu">
+                        <li>
+                            <a href="/administration/default.aspx?redirecturl=default-administrator-home&pageId=1234HJHJKJ*7987979">
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/administration/Users.aspx?redirecturl=default-administrator-home&pageId=1234HJHJKJ*7987979">
+                                <span>User</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/administration/projects.aspx?redirecturl=default-administrator-home&pageId=1234HJHJKJ*7987979">
+                                <span>Projects</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/administration/projecttask.aspx?redirecturl=default-administrator-home&pageId=1234HJHJKJ*7987979">
+                                <span>Project Task</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="main">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

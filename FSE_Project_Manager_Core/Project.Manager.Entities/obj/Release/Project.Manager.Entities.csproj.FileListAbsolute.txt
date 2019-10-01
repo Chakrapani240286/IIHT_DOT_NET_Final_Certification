@@ -1,0 +1,12 @@
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.Entities\bin\Release\Project.Manager.Entities.dll.config
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.Entities\bin\Release\Project.Manager.Entities.dll
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.Entities\bin\Release\Project.Manager.Entities.pdb
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.Entities\bin\Release\EntityFramework.dll
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.Entities\bin\Release\EntityFramework.SqlServer.dll
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.Entities\bin\Release\EntityFramework.xml
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.Entities\bin\Release\EntityFramework.SqlServer.xml
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.Entities\obj\Release\Project.Manager.Entities.csprojAssemblyReference.cache
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.Entities\obj\Release\Project.Manager.Entities.csproj.CoreCompileInputs.cache
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.Entities\obj\Release\Project.Manager.Entities.csproj.CopyComplete
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.Entities\obj\Release\Project.Manager.Entities.dll
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.Entities\obj\Release\Project.Manager.Entities.pdb

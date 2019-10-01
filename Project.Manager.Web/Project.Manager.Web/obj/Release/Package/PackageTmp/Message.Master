@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Message.master.cs" Inherits="Project.Manager.Web.Message" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link rel="icon" href="../content/favicon.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="../content/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../content/css/plugins/icheck/all.css" />
+    <link rel="stylesheet" href="../content/css/style.css" />
+    <link rel="stylesheet" href="../content/css/themes.css" />
+    <link href="~/Scripts/messi.min.css" rel="stylesheet" />
+
+    <script src="../content/js/jquery.min.js"></script>
+    <script src="../content/js/plugins/nicescroll/jquery.nicescroll.min.js"></script>
+    <script src="../content/js/plugins/validation/jquery.validate.min.js"></script>
+    <script src="../content/js/plugins/validation/additional-methods.min.js"></script>
+    <script src="../content/js/plugins/icheck/jquery.icheck.min.js"></script>
+    <script src="../content/js/bootstrap.min.js"></script>
+    <script src="../content/js/eakroko.js"></script>
+    <script src="../Scripts/messi.min.js"></script>
+
+    <link rel="shortcut icon" href="../content/favicon.html" />
+</head>
+<body class='login'>
+
+    <div class="wrapper">
+        <h1>
+            <a href="/default.aspx?redirectUrl=login-administrator-home&pageId=1234HJHJKJ*7987979">                
+                 <%=ConfigurationManager.AppSettings["AppName"].ToString() %>
+            </a>
+        </h1>
+        <div class="login-body" style="width: 638px; margin-left: -125px; text-align: center">
+            <form id="form1" runat="server">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

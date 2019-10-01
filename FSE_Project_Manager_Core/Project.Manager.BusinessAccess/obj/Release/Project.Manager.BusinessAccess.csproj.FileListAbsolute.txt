@@ -1,0 +1,17 @@
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.BusinessAccess\bin\Release\Project.Manager.BusinessAccess.dll
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.BusinessAccess\bin\Release\Project.Manager.BusinessAccess.pdb
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.BusinessAccess\bin\Release\Project.Manager.DataAccess.dll
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.BusinessAccess\bin\Release\Project.Manager.Entities.dll
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.BusinessAccess\bin\Release\EntityFramework.dll
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.BusinessAccess\bin\Release\EntityFramework.SqlServer.dll
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.BusinessAccess\bin\Release\Project.Manager.DataAccess.pdb
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.BusinessAccess\bin\Release\Project.Manager.DataAccess.dll.config
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.BusinessAccess\bin\Release\Project.Manager.Entities.pdb
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.BusinessAccess\bin\Release\Project.Manager.Entities.dll.config
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.BusinessAccess\bin\Release\EntityFramework.xml
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.BusinessAccess\bin\Release\EntityFramework.SqlServer.xml
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.BusinessAccess\obj\Release\Project.Manager.BusinessAccess.csprojAssemblyReference.cache
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.BusinessAccess\obj\Release\Project.Manager.BusinessAccess.csproj.CoreCompileInputs.cache
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.BusinessAccess\obj\Release\Project.Manager.BusinessAccess.csproj.CopyComplete
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.BusinessAccess\obj\Release\Project.Manager.BusinessAccess.dll
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.BusinessAccess\obj\Release\Project.Manager.BusinessAccess.pdb

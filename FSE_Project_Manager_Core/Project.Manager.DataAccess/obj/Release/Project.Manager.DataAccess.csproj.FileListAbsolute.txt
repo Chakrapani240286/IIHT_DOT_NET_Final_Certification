@@ -1,0 +1,15 @@
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.DataAccess\bin\Release\Project.Manager.DataAccess.dll.config
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.DataAccess\bin\Release\Project.Manager.DataAccess.dll
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.DataAccess\bin\Release\Project.Manager.DataAccess.pdb
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.DataAccess\bin\Release\EntityFramework.dll
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.DataAccess\bin\Release\EntityFramework.SqlServer.dll
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.DataAccess\bin\Release\Project.Manager.Entities.dll
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.DataAccess\bin\Release\Project.Manager.Entities.pdb
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.DataAccess\bin\Release\Project.Manager.Entities.dll.config
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.DataAccess\bin\Release\EntityFramework.xml
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.DataAccess\bin\Release\EntityFramework.SqlServer.xml
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.DataAccess\obj\Release\Project.Manager.DataAccess.csprojAssemblyReference.cache
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.DataAccess\obj\Release\Project.Manager.DataAccess.csproj.CoreCompileInputs.cache
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.DataAccess\obj\Release\Project.Manager.DataAccess.csproj.CopyComplete
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.DataAccess\obj\Release\Project.Manager.DataAccess.dll
+E:\FSE Projects\FSE_Project_Manager_Core\Project.Manager.DataAccess\obj\Release\Project.Manager.DataAccess.pdb
